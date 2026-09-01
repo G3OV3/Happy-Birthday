@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
   let microphone;
  let audio = new Audio('hbday.mp3');
 
-
+  alert("Blow the candles");
+    
   function addCandle(left, top) {
     const candle = document.createElement("div");
     candle.className = "candle";
