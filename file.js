@@ -1,5 +1,3 @@
-window.alert("Blow the candles");
-
 document.addEventListener("DOMContentLoaded", function () {
   const cake = document.querySelector(".cake");
   let candles = [];
@@ -8,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let microphone;
  let audio = new Audio('hbday.mp3');
 
+  window.alert("Blow the candles");
     
   function addCandle(left, top) {
     const candle = document.createElement("div");
